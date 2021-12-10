@@ -1,6 +1,50 @@
 # Changelog
 
-## [v0.4.0-SNAPSHOT](https://github.com/NASA-PDS/registry-api-service/tree/v0.4.0-SNAPSHOT) (2021-08-10)
+## [0.4.1](https://github.com/NASA-PDS/registry-api-service/tree/0.4.1) (2021-12-10)
+
+[Full Changelog](https://github.com/NASA-PDS/registry-api-service/compare/v0.4.0...0.4.1)
+
+**Requirements:**
+
+- As a developer, I was to be able to use AWS Secrets Manager with registry api service [\#52](https://github.com/NASA-PDS/registry-api-service/issues/52)
+
+**Improvements:**
+
+- Support for node-specific routing in API paths [\#81](https://github.com/NASA-PDS/registry-api-service/issues/81)
+- Add aws cost tagging and secret/parameter creation to ECS terraform script [\#78](https://github.com/NASA-PDS/registry-api-service/issues/78)
+
+**Defects:**
+
+- Registry API Service doesn't build anymore [\#91](https://github.com/NASA-PDS/registry-api-service/issues/91) [[s.high](https://github.com/NASA-PDS/registry-api-service/labels/s.high)]
+- service is not handling value of ES login correctly [\#87](https://github.com/NASA-PDS/registry-api-service/issues/87) [[s.high](https://github.com/NASA-PDS/registry-api-service/labels/s.high)]
+- AWS target groups created in terraform do not have intended targets [\#85](https://github.com/NASA-PDS/registry-api-service/issues/85) [[s.medium](https://github.com/NASA-PDS/registry-api-service/labels/s.medium)]
+
+**Other closed issues:**
+
+- Work w/ SAs to define production deployment strategy in AWS [\#22](https://github.com/NASA-PDS/registry-api-service/issues/22)
+
+## [v0.4.0](https://github.com/NASA-PDS/registry-api-service/tree/v0.4.0) (2021-09-30)
+
+[Full Changelog](https://github.com/NASA-PDS/registry-api-service/compare/v0.4.0-SNAPSHOT...v0.4.0)
+
+**Requirements:**
+
+- As a user, I want  to get a 404 error when I attempt to request a resource which does not exists [\#33](https://github.com/NASA-PDS/registry-api-service/issues/33)
+- As a developer, I want to utilize ElasticSearch performance robustness for API response time requirements. [\#13](https://github.com/NASA-PDS/registry-api-service/issues/13)
+
+**Defects:**
+
+- As a paginator, I want endpoints to consistently return no results when I page to the end of results [\#69](https://github.com/NASA-PDS/registry-api-service/issues/69) [[s.high](https://github.com/NASA-PDS/registry-api-service/labels/s.high)]
+- Fix broken build per pds4+json PR merge [\#68](https://github.com/NASA-PDS/registry-api-service/issues/68) [[s.high](https://github.com/NASA-PDS/registry-api-service/labels/s.high)]
+- API unable to handle products with multiple file areas [\#62](https://github.com/NASA-PDS/registry-api-service/issues/62) [[s.high](https://github.com/NASA-PDS/registry-api-service/labels/s.high)]
+- If Elasticsearch is down on API server startup, it starts, but doesn't accept connections [\#53](https://github.com/NASA-PDS/registry-api-service/issues/53) [[s.medium](https://github.com/NASA-PDS/registry-api-service/labels/s.medium)]
+- The end point /bundles/{lidvid}/products does not fully work [\#36](https://github.com/NASA-PDS/registry-api-service/issues/36) [[s.medium](https://github.com/NASA-PDS/registry-api-service/labels/s.medium)]
+
+**Other closed issues:**
+
+- Implement populating `hits` value in registry-api-service [\#31](https://github.com/NASA-PDS/registry-api-service/issues/31)
+
+## [v0.4.0-SNAPSHOT](https://github.com/NASA-PDS/registry-api-service/tree/v0.4.0-SNAPSHOT) (2021-08-11)
 
 [Full Changelog](https://github.com/NASA-PDS/registry-api-service/compare/v0.3.2...v0.4.0-SNAPSHOT)
 
