@@ -341,7 +341,7 @@ POSSIBILITY OF SUCH DAMAGE.
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-secretsmanager</artifactId>
-            <version>1.11.1000</version>
+            <version>1.12.300</version>
         </dependency>
         
 	</dependencies>
